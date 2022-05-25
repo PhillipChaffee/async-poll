@@ -1,14 +1,21 @@
 {
   "name": "async-poll",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An async function that takes an async function as argument and runs it until the result satisfies a check function.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["async", "poll", "polling", "function"],
+  "author": "phillipdensmorechaffee@gmail.com",
+  "homepage": "https://github.com/PhillipChaffee/async-poll",
+  "bugs": "https://github.com/PhillipChaffee/async-poll/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhillipChaffee/async-poll"
+  },
   "license": "ISC",
   "prettier": "@vercel/style-guide/prettier",
   "devDependencies": {
